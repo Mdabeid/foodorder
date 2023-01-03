@@ -36,3 +36,29 @@
     transform: rotate(360deg);
   }
 }
+
+
+
+@media (max-width:370px){
+  html{
+    font-size: 40%;
+  }
+}
+
+@media (min-width:371px) and (max-width:480px) {
+  html{
+    font-size: 50%;
+  }
+}
+
+@media (min-width:481px) and (max-width:680px) {
+  html{
+    font-size: 60%;
+  }
+}
+
+@media (min-width:681px) and (max-width:788px) {
+  html{
+    font-size: 80%;
+  }
+}
